@@ -32,6 +32,7 @@ import {HeroService} from './hero.service';
     </nav>
     <router-outlet>
   `,
+  styleUrls: ['./app/app.component.css'],
   directives: [ROUTER_DIRECTIVES],
   providers: [ROUTER_PROVIDERS, HeroService]
 })
